@@ -18,7 +18,10 @@
   function gtag() { dataLayer.push(arguments); }
   gtag('js', new Date());
 
-  gtag('config', 'G-B75KQ8W514');
+  gtag('config', 'G-B75KQ8W514', {
+    'cookie_domain': location.hostname,
+    'cookie_flags': 'SameSite=None;Secure'
+  });
 </script>
 
 <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #2781aa;">
@@ -52,11 +55,11 @@
     <hr>
     <div id="resume-education">
       <h3>Education</h3>
-      <p><i>University of Cincinnati</i>, Junior, Class of 2028<br>
+      <p><i><b>University of Cincinnati</b></i>, Junior, Class of 2028<br>
         Bachelor of Science, <b>Cybersecurity Engineering</b><br>
         - Programming & Automation<br>
         - Low-Level Security Principles & Design<br></p>
-      <p><i>Lakota East High School</i>, Valedictorian, Class of 2023<br>
+      <p><i><b>Lakota East High School</b></i>, <b>Valedictorian</b>, Class of 2023<br>
         Engineering & Cybersecurity Tracks<br>
       </p>
     </div>
